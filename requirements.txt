@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-google-genai
+qdrant-client
+sentence-transformers
+google-cloud-firestore
+python-dotenv
+pydantic
+httpx
