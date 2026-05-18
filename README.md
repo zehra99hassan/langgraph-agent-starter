@@ -143,23 +143,6 @@ LangGraph's `AgentState` as a `TypedDict` makes state fields explicit and catche
 **Why separate router and responder nodes?**
 Mixing routing logic and generation in a single node creates a monolithic prompt that's hard to tune. Separating them lets you improve routing accuracy independently from response quality.
 
----
-
-## Requirements
-
-```
-fastapi
-uvicorn
-langgraph
-langchain
-langchain-google-genai
-qdrant-client
-sentence-transformers
-google-cloud-firestore
-python-dotenv
-pydantic
-httpx
-```
 
 ---
 
